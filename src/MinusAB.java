@@ -5,16 +5,6 @@ import java.util.Scanner;
 // refer : https://www.acmicpc.net/problem/1001
 public class MinusAB {
     public static void main(String[] args) {
-        // 입력
-        // 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
-        Scanner sc = new Scanner(System.in);
-
-        int A = sc.nextInt();
-        int B = sc.nextInt();
-
-        // 출력
-        // 첫째 줄에 A-B를 출력한다.
-        System.out.println(A-B);
-        sc.close();
+        System.out.println("13245");
     }
 }

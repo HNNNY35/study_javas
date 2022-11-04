@@ -10,10 +10,6 @@ import java.util.Scanner;
 // 입력(input), 정수(demical), 출력(output), 곱하기(multiplied)
         
         public class Main {
-        public int multiplied(int input_first, int input_second) {
-            int multiplied = input_first * input_second;
-            return multiplied;
-        }
 
         public static void main(String[] args) {
         // 테스트 케이스
@@ -26,8 +22,7 @@ import java.util.Scanner;
        int input_second = scanner.nextInt();
 
         // 처리
-        Main main = new Main();
-        int multiplied = main.multiplied(input_first, input_second);
+        int multiplied = input_first * input_second;
 
         // 출력
         System.out.println(multiplied);

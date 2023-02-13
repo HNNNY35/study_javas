@@ -21,8 +21,6 @@ public class ApiExplorersWithDatagoKr_practice {
         urlBuilder.append("&" + URLEncoder.encode("numOfRows","UTF-8") + "=" + URLEncoder.encode("10", "UTF-8"));
         urlBuilder.append("&" + URLEncoder.encode("type","UTF-8") + "=" + URLEncoder.encode("xml", "UTF-8"));
 
-
-        // 연결 버튼
         URL url;
         HttpURLConnection conn = null;
         try {

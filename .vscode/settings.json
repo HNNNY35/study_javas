@@ -2,5 +2,6 @@
   "java.project.sourcePaths": ["src"],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": ["lib/**/*.jar"],
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "java.debug.settings.onBuildFailureProceed": true
 }
